@@ -31,3 +31,52 @@
   list-style: none;
   box-sizing: border-box;
 }
+
+p{
+  font: work-regular;
+  font-size: .825px;
+}
+
+body{
+  background-image: url(/assets/images/background-pattern-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: fit;
+  background-position: top;
+  background-color: var(--Purple-100);
+  
+  display: flex;
+justify-content: center;
+align-items:center;
+height: 100vh;
+}
+
+.faq__container{
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+
+width: 90%;
+height: max-content;
+
+
+  background: var(--White);
+  padding: 1rem;
+  border-radius: .5rem;
+}
+
+.headings{
+  display: flex;
+  gap: 3rem;
+  
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.faq__heading{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  margin: 1rem 0;
+}
