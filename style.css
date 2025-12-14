@@ -102,9 +102,9 @@ hr{
   
   border: 1px solid hsl(275, 100%, 97%);
 }
+
 .hidden{
   display: none;
-  
 }
 
 @media screen and (min-width: 730px) {
@@ -115,10 +115,9 @@ hr{
   }
   
   .faq__container{
-    width: max-content;
+    //width: 600 /16 rem;
+    max-width: 37.5rem;
   }
   
-  .faq__answer{
-    width: 100%;
-  }
+  
 }
